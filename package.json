@@ -5,7 +5,9 @@
   "description": "Python 开发工具集 - 代码格式化、检查、依赖管理、虚拟环境管理",
   "scripts": {
     "start": "node bin/pytools.js",
-    "subapp": "node bin/pytools.js"
+    "cli": "node bin/pytools.js",
+    "build": "cd ui && npm run build",
+    "subapp": "cd ui && npm run subapp"
   },
   "bin": {
     "pytools": "./bin/pytools.js"
